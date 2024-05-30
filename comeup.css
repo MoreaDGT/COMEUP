@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+
+div {
+    text-align: center;
+}
+
+#div1 a {
+    text-align: left;
+}
+
+img {
+    width: 25px;
+}
+
+#logo-comeup {
+    width: 128px;
+}
+
+
+
+#div1 {
+    display: flex ;
+    justify-content: space-between;
+    padding: 0 3%;
+    margin-top: 20px;
+} 
+
+.header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+}
+
+input {
+    border-radius: 50px 0 0 50px;
+    padding-left: 20px;
+    height: 24px;
+    background-color: rgb(222, 220, 215);
+    width: 60%;
+    border: none;
+    flex-grow: 3;
+}
+
+form label img {
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+form {
+    width: 40%;
+    background-color: rgb(222, 220, 215);
+    border-radius: 50px ;
+    margin-left: 50px;
+    padding: 0;
+}
+
+#div2{
+    display: flex;
+    justify-content: end;
+}
+
+#div2 a {
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+#button {
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 30%;
+    background-color: yellow;
+}
+
+b {
+    text-decoration: underline;
+    font-size: 23px;
+    color: black;
+}
+
+nav {
+    margin-bottom: 20px;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none ;
+    justify-content: space-between; 
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    justify-content: center;
+    border-bottom: 2px solid rgba(92, 91, 91, 0.292);
+    padding-bottom: 8px;
+
+}
+
+main b {
+    font-size: 12px;
+}
+
+li a {
+    display: flex;
+    padding: 20px 0 0 0;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+ul a {
+    border-bottom: transparent solid 2px;
+}
+
+ul li:hover {
+    border-bottom: black solid 2px;
+    padding-bottom: 8px;
+}
+
+#sousmenu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+
+
+.photo {
+    width: 100%;
+}
+
+.main1 {
+    text-align: start;
+    width: 32%;
+}
+
+.main1 div{
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 0;
+}
+
+.main1 a {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.main1 div p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.main1 p {
+    margin-bottom: 15px;
+}
+
+span {
+    color: rgb(120, 117, 117);
+}
+
+.star {
+    width: 11px;
+}
+
+#photo4 {
+    width: 94%;
+    padding: 0 3%;
+}
+
+
